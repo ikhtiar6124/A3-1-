@@ -1,0 +1,33 @@
+# A3-1-
+
+package array;
+
+
+public class Array {
+
+   
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        int[] array = new int[5];
+        array[0]=7;
+        array[1]=13;
+        array[2]=2;  
+        array[3]=10;
+        array[4]=6;
+        //int sum;
+       // sum = array[0]+ array[1]+ array[2]+ array[3]+ array[4];
+       // System.out.println("The sum is = " +sum);
+       // int len=array.length;
+        
+       // System.out.println("The length is = " +len );
+        
+        System.out.println("The first index is =" +array[0]);
+        System.out.println("The second index is =" +array[1]);
+        System.out.println("The third index is =" +array[2]);
+        System.out.println("The fourth index is =" +array[3]);
+        System.out.println("The fifth index is =" +array[4]);
+        
+        
+    }
+}
